@@ -7,13 +7,13 @@ import { NavigationContainer } from '@react-navigation/native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import {FontAwesome5, AntDesign } from '@expo/vector-icons'
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import SplashScreen from './components/SplashScreen'
-import logo from './assets/logo.png'
 
-import {HomeView} from './views/HomeView'
-import {AccountView} from './views/AccountView'
-import {SearchView} from './views/SearchView'
-import {NotifView} from './views/NotifView'
+import logo from './assets/pictures/logo.png'
+
+import {HomeView} from './lib/views/HomeView'
+import {AccountView} from './lib/views/AccountView'
+import {SearchView} from './lib/views/SearchView'
+import {NotifView} from './lib/views/NotifView'
 
 const Tab = createBottomTabNavigator()
 

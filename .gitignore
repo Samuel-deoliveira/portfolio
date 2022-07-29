@@ -1,3 +1,6 @@
 node_modules/
 expo/
 portfolio_app/
+config.json
+.env
+.expo/
